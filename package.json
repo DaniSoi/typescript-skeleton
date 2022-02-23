@@ -1,10 +1,9 @@
 {
   "name": "typescript-skeleton",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "Typescript project skeleton.",
+  "author": "Daniel Soifer <daniel.soifer@codefresh.io> (https://github.com/daniel-codefresh)",
   "private": true,
-  "license": "UNLICENSED",
   "engines": {
     "node": "16.14.0"
   },
