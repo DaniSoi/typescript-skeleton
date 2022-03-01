@@ -24,7 +24,6 @@ module.exports = {
   rules: {
     'no-process-env': 'error',
     'unicorn/better-regex': 'error',
-    'unicorn/catch-error-name': 'error',
     'unicorn/consistent-function-scoping': 'error',
     'unicorn/custom-error-definition': 'off',
     'unicorn/empty-brace-spaces': 'error',
@@ -141,7 +140,7 @@ module.exports = {
     'object-curly-spacing': ['error', 'always'],
     '@typescript-eslint/keyword-spacing': ['error'],
     '@typescript-eslint/interface-name-prefix': 'off',
-    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/explicit-function-return-type': 'error',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/type-annotation-spacing': 'error',
